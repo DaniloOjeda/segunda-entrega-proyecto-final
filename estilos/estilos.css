@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,600&display=swap');
+
+*{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+
+.altura {
+    height: 40rem;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.container-fluid {
+    text-transform:uppercase;
+}
+
+
+nav a:hover{
+    background-color: rgb(100, 108, 105);
+    padding: 5px 10px;
+}  
+
+@keyframes lotto {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+nav img {
+    animation-name: lotto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+footer img:hover {
+    width: 75px;
+    height: 75px;
+}
+
